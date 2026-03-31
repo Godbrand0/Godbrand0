@@ -71,7 +71,7 @@ fn about_me() -> Developer {
 
 ## 🚀 Featured Projects
 
-### 🏦 [SpendWise AI](https://github.com/Godbrand0/spenwise) — AI × Finance × Web3
+### 🏦 [SpendWise AI](https://github.com/Godbrand0/spenwise) — AI × Finance × Web2
 > An intelligent financial management platform that auto-extracts transactions from Nigerian bank statements, applies AI-powered insights, and calculates progressive tax estimates.
 - **Stack:** Next.js 14, PostgreSQL, Google Gemini, Supabase
 - **Highlights:** Hybrid regex + AI extraction, configurable tax engine, automated email reminders
