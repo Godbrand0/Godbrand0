@@ -3,8 +3,8 @@
 <h1 align="center">👋 Hey, I'm Thompson Eregha</h1>
 
 <p align="center">
-  <b>Web3 Builder · Smart Contract Developer · Frontend Engineer</b><br/>
-  <i>Building decentralized systems that solve real-world problems — one block at a time.</i>
+  <b>Protocol Developer · Smart Contract Engineer · Web3 Builder</b><br/>
+  <i>Designing on-chain systems and financial primitives that work — one block at a time.</i>
 </p>
 
 <p align="center">
@@ -20,8 +20,14 @@
 fn about_me() -> Developer {
     Developer {
         name: "Thompson Eregha",
-        focus: vec!["Smart Contracts", "DeFi Primitives", "Cross-chain Systems", "dApp Frontends"],
-        stack: vec!["Solidity", "Soroban/Rust", "React", "Node.js"],
+        focus: vec![
+            "Protocol Design",
+            "Smart Contracts",
+            "DeFi Primitives",
+            "Cross-chain Systems",
+            "Rust Backends",
+        ],
+        stack: vec!["Solidity", "Rust", "Soroban", "React", "Node.js"],
         currently_building: "on-chain financial intelligence tools",
         belief: "Code is the most scalable form of trust.",
     }
@@ -54,8 +60,10 @@ fn about_me() -> Developer {
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 
 **Backend & Tools**
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Actix-web](https://img.shields.io/badge/Actix--web-000?style=flat-square&logo=rust&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=flat-square&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
@@ -77,6 +85,28 @@ fn about_me() -> Developer {
 > A decentralized platform where engineers and dreamers co-create space mission designs as composable Blueprint NFTs, with automatic value and credit flow across contributors.
 - **Stack:** Solidity, EVM, React
 - **Highlights:** Composable NFTs, on-chain attribution, collaborative design economy
+
+### ⚡ [Blip](https://github.com/Godbrand0/blip) — AI-Powered Cross-Chain Bridging
+> Bridge USDC across chains by typing a sentence. No RPCs, no approvals, no confusing UIs — just intent. Secured by World ID 4.0 sybil resistance and Circle CCTP V2 native burn-and-mint.
+- **Stack:** Next.js, Foundry/Solidity, Node.js, Chainlink CRE, MongoDB, World MiniKit
+- **Highlights:** AI intent parsing (Gemini), World ID ZK proof gating, ~8s fast transfers, trust-minimized Chainlink CRE relayer
+- **Live:** https://blip-frontend-two.vercel.app
+
+---
+
+## 🦀 Protocol Development & Open Source
+
+Beyond projects, I'm actively growing as a **protocol developer** — understanding the internals of decentralized systems, not just using them.
+
+### 🔩 [Rust E-commerce Backend Scaffolder](https://github.com/Godbrand0/rust_ecommerce)
+> A production-ready Rust backend scaffold built with Actix-web, SQLx, and PostgreSQL — featuring full RESTful API design for products, cart, orders, and payment processing via the Paystack API.
+- **Stack:** Rust, Actix-web, SQLx, PostgreSQL, Paystack
+- **What it demonstrates:** Systems-level thinking, async Rust, clean handler/service/route separation, and integrating payment rails at the backend level
+
+### 🌍 [GoodDollar Protocol SDKs](https://github.com/Godbrand0/GoodSDKs) — Open Source Contributor
+> Contributed to the GoodDollar Protocol SDK monorepo (Turborepo), which powers identity, claim, engagement, and savings flows for one of Web3's largest UBI protocols.
+- **Stack:** TypeScript, Viem, Wagmi, Hardhat, Lit Web Components
+- **Scope:** Citizen SDK, engagement rewards, savings SDK, and on-chain ABI integrations used in production dApps
 
 ---
 
